@@ -1,0 +1,15 @@
+.TopAppBar {
+    padding-top: 25px;
+    display: flex;
+    flex-grow: 1;
+    width: 80%;
+    min-height: 48px;
+}
+.logo {
+    max-height: 48px;
+    max-width: 200px;
+    fill: #1E1260;
+}
+.grow {
+    flex-grow: 1;
+}

@@ -1,10 +1,45 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './stylesheets/index.css';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const theme = createMuiTheme({
+    palette: {
+        primary: {
+            main: '#1E1260'
+        },
+        secondary: {
+            main: '#D555F6'
+        }
+    },
+    typography: {
+        fontFamily: 'Nunito',
+        useNextVariants: true,
+        fontSize: window.innerWidth > 600 ? 16 : 12
+    }
+});
+
+const themedApp = (
+    <MuiThemeProvider theme={theme}>
+        <Router>
+            <Switch>
+                <Route
+                    exact path="/"
+                    render={() => <App />}
+                />
+                <Route
+                    render={() => <h1>404 not found</h1>}
+                />
+            </Switch>
+        </Router>
+    </MuiThemeProvider>
+);
+
+
+ReactDOM.render(themedApp, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
