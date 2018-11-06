@@ -6,7 +6,7 @@
 }
 
 .hero-text {
-    flex: 2;
+    flex: 1;
     min-width: 300px;
     margin: 40px 0;
 }
@@ -17,7 +17,9 @@
 
 .hero-image {
     flex: 1;
+    margin: 0 10vw;
     min-width: 200px;
+    max-width: 350px;
 }
 
 .hero-image img {
@@ -27,4 +29,10 @@
 
 .description {
     margin-top: 40px;
+    max-width: 500px;
+}
+
+.register-button {
+    width: 200px;
+    margin: 50px auto;
 }

@@ -3,12 +3,16 @@
     display: flex;
     flex-grow: 1;
     width: 80%;
-    min-height: 48px;
+    height: 48px;
 }
-.logo {
-    max-height: 48px;
-    max-width: 200px;
+.logo-long {
     fill: #1E1260;
+    width: 250px;
+}
+.logo-square {
+    fill: #1E1260;
+    width: 48px;
+    height: 48px;
 }
 .grow {
     flex-grow: 1;
