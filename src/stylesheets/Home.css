@@ -8,7 +8,7 @@
 .hero-text {
     flex: 1;
     min-width: 300px;
-    margin: 40px 0;
+    margin-top: 40px;
 }
 
 .typing-title {
@@ -18,14 +18,13 @@
 
 .hero-image {
     flex: 1;
-    margin: 0 10vw;
-    min-width: 200px;
-    max-width: 350px;
+    margin-bottom: 40px;
+    min-width: 40vw;
+    max-width: 80vw;
 }
 
 .hero-image img {
-    max-width:100%;
-    max-height:100%;
+    width: 100%;
 }
 
 .description {

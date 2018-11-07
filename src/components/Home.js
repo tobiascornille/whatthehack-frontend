@@ -3,7 +3,7 @@ import '../stylesheets/Home.css'
 import Typography from '@material-ui/core/Typography';
 import Typing from 'react-typing-animation';
 import Button from '@material-ui/core/Button';
-
+import hero from '../static/hero.png';
 export default function Home(props) {
     return (
         <div className="Home">
@@ -47,7 +47,7 @@ export default function Home(props) {
                 </div>
             </div>
             <div className="hero-image">
-                <img alt="hero" src="https://staging.hackjunction.com/wp-content/uploads/2018/10/jellysfish.png"/>
+                <img alt="hero" src={hero}/>
             </div>
         </div>
     );

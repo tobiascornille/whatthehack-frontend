@@ -20,7 +20,7 @@ export default function FAQ(props) {
                 </Typography>
             </div>
             <div className="video">
-                <ReactPlayer url="https://www.youtube.com/watch?v=EN6Zh87_BIU" width="40vw"/>
+                <ReactPlayer url="https://www.youtube.com/watch?v=EN6Zh87_BIU" width="100%"/>
             </div>
         </div>
     );
