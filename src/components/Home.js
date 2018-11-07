@@ -3,21 +3,8 @@ import '../stylesheets/Home.css'
 import Typography from '@material-ui/core/Typography';
 import Typing from 'react-typing-animation';
 import Button from '@material-ui/core/Button';
-import withStyles from "@material-ui/core/es/styles/withStyles";
 
-const buttonStyles = {
-    root: {
-        background: 'linear-gradient(45deg, #67E7E2 0%, #3D99F5 100%)',
-        borderRadius: '24px !important',
-        color: '#fff !important',
-        width: '200px !important',
-        margin: '0 auto !important',
-        fontWeight: '700 !important'
-    },
-
-};
-
-const Home = (props) => {
+export default function Home(props) {
     return (
         <div className="Home">
             <div className="hero-text">
@@ -52,8 +39,8 @@ const Home = (props) => {
                         What The Hack is Belgium's biggest student hackathon. Gather with 250 students to collaborate
                         and bring your ideas to life in 24 hours.
                     </Typography>
-                    <div className="register-button">
-                        <Button variant="contained" className={props.classes.root}>
+                    <div className="register-button-container">
+                        <Button variant="contained" className="register-button">
                             Register Now
                         </Button>
                     </div>
@@ -65,5 +52,3 @@ const Home = (props) => {
         </div>
     );
 };
-
-export default withStyles(buttonStyles)(Home);

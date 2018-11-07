@@ -1,0 +1,17 @@
+.FAQ {
+    background-color: #1E1260 !important;
+    padding: 60px 10vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+    flex: 1;
+    margin: 30px 30px 30px 0;
+    min-width: 300px;
+}
+
+.video {
+    flex: 1;
+    margin: 30px 0;
+}

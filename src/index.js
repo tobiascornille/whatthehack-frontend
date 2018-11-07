@@ -13,13 +13,16 @@ const theme = createMuiTheme({
         },
         secondary: {
             main: '#D555F6'
+        },
+        text: {
+            secondary: '#fff'
         }
     },
     typography: {
         fontFamily: 'Nunito',
         useNextVariants: true,
-        fontSize: window.innerWidth > 600 ? 16 : 12
-    }
+        fontSize: window.innerWidth > 600 ? 16 : 12,
+    },
 });
 
 const themedApp = (

@@ -1,5 +1,5 @@
 .Home {
-    margin-top: 30px;
+    margin: 30px 10vw 0;
     display: flex;
     flex-wrap: wrap;
     width: 80%;
@@ -13,7 +13,7 @@
 
 .typing-title {
     margin-bottom: 10px;
-    min-height: 68px;
+    height: 100px;
 }
 
 .hero-image {
@@ -29,11 +29,20 @@
 }
 
 .description {
-    margin-top: 40px;
+    margin: 40px 0;
     max-width: 500px;
 }
 
-.register-button {
+.register-button-container {
     width: 200px;
     margin: 50px auto;
+}
+
+.register-button {
+    background: linear-gradient(45deg, #67E7E2 0%, #3D99F5 100%);
+    border-radius: 24px !important;
+    color: #fff !important;
+    width: 200px !important;
+    margin: 0 auto !important;
+    font-weight: 700 !important;
 }
