@@ -3,6 +3,7 @@ import Typography from "@material-ui/core/Typography/Typography";
 import '../stylesheets/What.css';
 import ReactPlayer from 'react-player';
 import Grid from "@material-ui/core/Grid/Grid";
+import Chip from "@material-ui/core/Chip/Chip";
 
 export default function What() {
     return (
@@ -20,6 +21,21 @@ export default function What() {
                         What The Hack's goal is to aims to empower students like you who are eager to learn and create by providing an environment for you to explore and build with workshops, mentorship, and hardware.
                         Let us take care of travel, food, and the details, so that you can grow your ideas beyond a vision.
                     </Typography>
+                    <Chip
+                        color="secondary"
+                        label="Beginner friendly"
+                        className="info-chip"
+                    />
+                    <Chip
+                        color="secondary"
+                        label="Free food"
+                        className="info-chip"
+                    />
+                    <Chip
+                        color="secondary"
+                        label="Cool prizes"
+                        className="info-chip"
+                    />
                 </Grid>
                 <Grid item md={6} xs={12}>
                     <ReactPlayer url="https://www.youtube.com/watch?v=EN6Zh87_BIU" width="100%"/>

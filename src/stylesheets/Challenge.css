@@ -1,7 +1,7 @@
 .card-image::after {
     display: block;
     position: relative;
-    background-image: linear-gradient(45deg, rgba(30, 18, 96, 0.7) 0%, rgba(213, 85, 246, 0.7) 100%);
+    background-image: linear-gradient(45deg, rgba(30, 18, 96, 0.8) 0%, rgba(61, 153, 245, 0.5) 100%);
     margin-top: -200px;
     height: 200px;
     width: 500px;
