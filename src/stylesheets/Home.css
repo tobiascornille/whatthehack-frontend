@@ -1,14 +1,5 @@
 .Home {
     margin: 30px 10vw 0;
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-}
-
-.hero-text {
-    flex: 1;
-    min-width: 300px;
-    margin-top: 40px;
 }
 
 .typing-title {
@@ -17,10 +8,7 @@
 }
 
 .hero-image {
-    flex: 1;
     margin-bottom: 40px;
-    min-width: 40vw;
-    max-width: 80vw;
 }
 
 .hero-image img {
