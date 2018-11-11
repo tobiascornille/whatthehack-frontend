@@ -11,10 +11,11 @@ export default function Challenges(props) {
                 Challenges
             </Typography>
             <Grid container spacing={40}>
-            {props.challenges && props.challenges.map(challenge =>
+            {props.challenges && props.challenges.map(({ title, img }) =>
                 <Challenge
-                    title={challenge.title}
-                    img={challenge.img}
+                    key={title}
+                    title={title}
+                    img={img}
                 />
             )}
             </Grid>
