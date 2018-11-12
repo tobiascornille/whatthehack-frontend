@@ -19,6 +19,7 @@ import Drawer from '@material-ui/core/Drawer/Drawer';
 import List from '@material-ui/core/List/List';
 import ListItem from '@material-ui/core/ListItem/ListItem';
 import ListItemText from '@material-ui/core/ListItemText/ListItemText';
+import Team from "./Team";
 
 export default class App extends Component {
     constructor(props) {
@@ -65,7 +66,7 @@ export default class App extends Component {
         const sideList = (
             <div>
                 <List>
-                    {['Home', 'A hackathon?', 'Challenges', 'FAQ'].map((text) => (
+                    {['Home', 'What is a hackathon?', 'Challenges', 'FAQ', 'Team'].map((text) => (
                         <ListItem button key={text}>
                             <Link to={text} smooth={true} duration={500} delay={500} onClick={this.toggleDrawer(false)}>
                                 <ListItemText primary={text}/>
@@ -96,7 +97,7 @@ export default class App extends Component {
                 <Element name="Home">
                     <Home />
                 </Element>
-                <Element name="A hackathon?">
+                <Element name="What is a hackathon?">
                     <What />
                 </Element>
                 <Element name="Challenges">
@@ -106,6 +107,9 @@ export default class App extends Component {
                 </Element>
                 <Element name="FAQ">
                     <FAQ />
+                </Element>
+                <Element name="Team">
+                    <Team />
                 </Element>
             </div>
         );

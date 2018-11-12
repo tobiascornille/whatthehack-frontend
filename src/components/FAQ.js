@@ -1,5 +1,4 @@
 import React from 'react';
-import '../stylesheets/FAQ.css';
 import questions from '../static/questions';
 import Typography from "@material-ui/core/Typography/Typography";
 import Grid from "@material-ui/core/Grid/Grid";
@@ -7,7 +6,7 @@ import Question from "./Question";
 
 export default function FAQ(props) {
     return (
-        <div className="FAQ">
+        <div className="section dark">
             <Typography variant="h4" paragraph={true} color="textSecondary">
                 FAQ
             </Typography>

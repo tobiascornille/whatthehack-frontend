@@ -7,7 +7,7 @@ import hero from '../static/hero.png';
 import Grid from "@material-ui/core/Grid/Grid";
 export default function Home(props) {
     return (
-        <div className="Home">
+        <div className="section">
             <Grid container spacing={24}>
                 <Grid item md={6} sm={12}>
                     <div className="typing-title">

@@ -7,7 +7,7 @@ import Chip from "@material-ui/core/Chip/Chip";
 
 export default function What() {
     return (
-        <div className="What">
+        <div className="section dark">
             <Grid container spacing={40}>
                 <Grid item md={6} xs={12}>
                     <Typography variant="h4" color="textSecondary" paragraph={true}>

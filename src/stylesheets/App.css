@@ -2,3 +2,11 @@
     width: 100%;
     height: 100%;
 }
+
+.section {
+    padding: 60px 10vw;
+}
+
+.dark {
+    background-color: #1E1260 !important;
+}
