@@ -21,7 +21,7 @@ const theme = createMuiTheme({
     typography: {
         fontFamily: 'Nunito',
         useNextVariants: true,
-        fontSize: window.innerWidth > 600 ? 16 : 12,
+        fontSize: window.innerWidth > 600 ? 16 : 13,
     },
 });
 
