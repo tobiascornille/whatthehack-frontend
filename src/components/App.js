@@ -96,7 +96,7 @@ export default class App extends Component {
                 <Element name="Home">
                     <Home />
                 </Element>
-                <Element name="What">
+                <Element name="A hackathon?">
                     <What />
                 </Element>
                 <Element name="Challenges">
