@@ -23,12 +23,13 @@
 .register-button-container {
     width: 200px;
     margin: 50px auto;
+    text-align: center;
 }
 
 .register-button {
-    background: linear-gradient(45deg, #67E7E2 0%, #3D99F5 100%);
+    /*background: linear-gradient(45deg, #67E7E2 0%, #3D99F5 100%);*/
+    /*color: #fff !important;*/
     border-radius: 24px !important;
-    color: #fff !important;
     width: 200px !important;
     margin: 0 auto !important;
     font-weight: 700 !important;

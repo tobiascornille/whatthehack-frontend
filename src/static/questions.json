@@ -1,23 +1,27 @@
 [
   {
    "question": "What can I build?",
-    "answer": "Web, mobile, hardware, anything is on the table. Other than a prototype, you will also have to present a small business plan for your project."
+    "answer": "Web, mobile, hardware, games, ... anything is on the table! Choose a challenge you like and build something cool. Other than a prototype, you will also have to present a small business plan for your project."
   },
   {
     "question": "Who can apply?",
-    "answer": "Students from universities and high schools from all around the world. We also accept students up to one year after graduation."
+    "answer": "Students from universities and high schools from all around the world. What The Hack is definitely not limited to computer science majors! Anyone who has an interest in technology and is eager to learn can participate."
   },
   {
-    "question": "How much does it cost?",
-    "answer": "What The Hack is completely free for all accepted hackers. We will provide you WiFi, food, goodies, workspace."
+    "question": "What if I can't code?",
+    "answer": "No problem! You can still work on the idea, business plan, design and other aspects of your project. If you're interested in programming, you can also learn the basics at What The Hack. We'll have mentors and workshops to help you."
+  },
+  {
+    "question": "What if I've never been to a hackathon before?",
+    "answer": "What The Hack welcomes students of all skill levels. We’ll have mentors and workshops to help you with your project; hackathons can be a great place to learn new skills in a short amount of time. Just be eager to learn, and excited to meet lots of awesome people."
   },
   {
     "question": "How does the pitching work?",
-    "answer": "On Saturday evening after the hacking you will have to present what you’ve built. You will get three minutes to demo your prototype, and three minutes to pitch your business plan."
+    "answer": "On Saturday evening after the hacking you will have to present what you’ve built. You will get a couple of minutes to demo your prototype, and a couple of minutes to pitch your business plan."
   },
   {
     "question": "How big can teams be?",
-    "answer": "Teams can have up to 5 participants. We advise you to have a balanced team of 3-4 developers, an entrepreneur and possibly a designer so you can present a working prototype and a business plan on Sunday."
+    "answer": "Teams can have up to 5 participants. We advise you to have a balanced team of 3-4 developers, a business specialist and possibly a designer so you can present a working prototype and a business plan."
   },
   {
     "question": "How can I form my team?",
@@ -34,6 +38,10 @@
   {
     "question": "Will there be travel reimbursements available?",
     "answer": "We will pay back your Belgian train tickets. Please make sure to keep the receipt so we can reimburse you."
+  },
+  {
+    "question": "Can I start working on my project before the event?",
+    "answer": "No. In the interest of fairness, students should not be working on their projects before What The Hack begins and we do not allow participants to work on pre-existing projects. However, you can start thinking of ideas and familiarize yourself with all the tools and technologies you intend to use beforehand!"
   },
   {
     "question": "More questions?",

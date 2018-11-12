@@ -14,12 +14,16 @@ export default function What() {
                         What is a hackathon?
                     </Typography>
                     <Typography variant="body1" color="textSecondary" paragraph={true}>
-                        Hackathons are awesome events full of creativity, technology and passionate students collaborating and creating.
-                        Attendees work in teams to create apps, games, robots… literally anything you want to build & learn about!
+                        A hackathon is an "invention marathon" where students come together to develop a product over the course of a weekend.
+                        You will work in teams of up to 5 students on one of our challenges.
+                        In just 24 hours, your team will go from an idea to a prototype.
+                        To encourage you to think further than just one weekend, you will also pitch a small business plan.
                     </Typography>
                     <Typography variant="body1" color="textSecondary" paragraph={true}>
-                        What The Hack's goal is to aims to empower students like you who are eager to learn and create by providing an environment for you to explore and build with workshops, mentorship, and hardware.
-                        Let us take care of travel, food, and the details, so that you can grow your ideas beyond a vision.
+                        Now don't worry, you don't need a lot of experience to participate.
+                        Our mentors and workshops will help you get there.
+                        You'll learn new practical skills, collaborate intensely and have a lot of fun.
+                        Best of all, we'll have nice food and goodies for everyone, all for free!
                     </Typography>
                     <Chip
                         color="secondary"

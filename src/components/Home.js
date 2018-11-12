@@ -42,7 +42,10 @@ export default function Home(props) {
                             and bring your ideas to life in 24 hours.
                         </Typography>
                         <div className="register-button-container">
-                            <Button variant="contained" className="register-button">
+                            <Typography variant="caption" color="primary">
+                                Registrations open on 25/11
+                            </Typography>
+                            <Button disabled variant="contained" className="register-button">
                                 Register Now
                             </Button>
                         </div>

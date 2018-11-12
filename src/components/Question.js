@@ -20,12 +20,12 @@ function Challenge(props) {
         <Grid item lg={4} sm={6} xs={12}>
             <ExpansionPanel className={classes.panel}>
                 <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography variant="h6" color="textPrimary">
+                    <Typography variant="h6" color="primary">
                         {question}
                     </Typography>
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
-                    <Typography color="textPrimary">
+                    <Typography color="primary">
                         {answer}
                     </Typography>
                 </ExpansionPanelDetails>

@@ -20,7 +20,7 @@ function TopAppBar(props) {
         <div className="TopAppBar">
             {window.innerWidth > 600 ? <LogoLong className="logo-long" alt="logo"/> : <LogoSquare className="logo-square" alt="logo"/>}
             <div className="grow"></div>
-            <Button variant="outlined" color="primary">Login</Button>
+            {/*<Button variant="outlined" color="primary">Login</Button>*/}
             <IconButton
                 aria-label="Menu"
                 className={classes.menuButton}
