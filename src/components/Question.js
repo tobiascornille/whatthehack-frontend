@@ -10,11 +10,12 @@ import withStyles from "@material-ui/core/es/styles/withStyles";
 
 const styles = {
     panel: {
-        backgroundColor: '#f8fcfe !important'
+        backgroundColor: '#f8fcfe !important',
+        margin: '0 !important'
     }
 };
 
-function Challenge(props) {
+function Question(props) {
     const { question, answer, classes } = props;
     return (
         <Grid item lg={4} sm={6} xs={12}>
@@ -34,4 +35,4 @@ function Challenge(props) {
     );
 }
 
-export default withStyles(styles)(Challenge);
+export default withStyles(styles)(Question);
