@@ -8,6 +8,7 @@ html {
 #root {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -15,4 +16,20 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    color: #D555F6;
+    text-decoration:none;
+}
+
+a:visited {
+    color: #644EF6;
+    text-decoration:none;
+}
+
+a:hover {
+    color: #c044e2;
+    text-decoration: none;
 }

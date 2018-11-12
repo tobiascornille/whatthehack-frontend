@@ -5,7 +5,7 @@ import {ReactComponent as LogoLong} from "../static/logo_long.svg";
 import {ReactComponent as LogoSquare} from "../static/logo_square.svg";
 import IconButton from "@material-ui/core/IconButton/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import Button from "@material-ui/core/Button/Button";
+// import Button from "@material-ui/core/Button/Button";
 
 const styles = {
     menuButton: {
